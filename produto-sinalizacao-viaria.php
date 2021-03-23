@@ -1,132 +1,18 @@
-<!DOCTYPE html>
-<html lang="pt-br" itemscope itemtype="http://schema.org/WebPage">
-<!-- Mirrored from www.realsinalizacao.com.br/produto-sinalizacao-viaria by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Mar 2021 21:12:00 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<?php
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produto Sinalização Viária - Real Sinalização</title>
-    <base>
-    <meta name="description"
-        content="Nosso compromisso é fornecer soluções em produtos e serviços com excelência e maestria, oferecendo, por custos acessíveis.">
-    <meta name="keywords" content="Produto Sinalização Viária">
-    <meta name="geo.position" content="-23.408888, -46.736296">
-    <meta name="geo.placename" content="São Paulo-SP">
-    <meta name="geo.region" content="SP-BR">
-    <meta name="ICBM" content="-23.408888, -46.736296">
-    <meta name="robots" content="index,follow">
-    <meta name="rating" content="General">
-    <meta name="revisit-after" content="7 days">
-    <meta name="author" content="Real Sinalização">
-    <meta property="og:region" content="Brasil">
-    <meta property="og:title" content="Produto Sinalização Viária">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="produto-sinalizacao-viaria.html">
-    <meta property="og:description"
-        content="Nosso compromisso é fornecer soluções em produtos e serviços com excelência e maestria, oferecendo, por custos acessíveis.">
-    <meta property="og:site_name" content="Real Sinalização">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="produto-sinalizacao-viaria.html">
-    <meta name="twitter:title" content="Produto Sinalização Viária">
-    <meta name="twitter:description"
-        content="Nosso compromisso é fornecer soluções em produtos e serviços com excelência e maestria, oferecendo, por custos acessíveis.">
+    include "php/efata/classe-efata.php"; 
+    include "php/_variaveis.php";
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style6.css" rel="stylesheet">
+    $title    	 = "";
+    $description = ""; // Manter entre 130 a 160 caracteres
+    
+?>
 
-    <link rel="canonical" href="produto-sinalizacao-viaria.html">
-    <link rel="shortcut icon" href="imagens/favicon.png">
-    <link rel="stylesheet" href="assets/fontawesome-free-5.7.0-web/css/all.min.css">
-</head>
+    <?php include "php/head.php"; ?>
 
 <body>
 
-    <header itemscope itemtype="http://schema.org/Organization">
-        <div class="header-top header-container-main">
-            <div class="container">
-                <div class="logo">
-                    <a href="index.html" title="Produto Sinalização Viária - Real Sinalização">
-                        <span itemprop="image">
-                            <img src="imagens/logo-quality.png" alt="Real Sinalização" title="Real Sinalização"
-                                class="img-responsive">
-                        </span>
-                    </a>
-                </div>
-                <div class="tel">
-                    <a href="mailto:contato@realsinalizacao.com.br" title="E-mail"><i class="fas fa-envelope"></i>
-                        contato@realsinalizacao.com.br</a>
-                    <span class="divisor">-</span>
-                    <a title="Clique e ligue" href="tel:113917-5139">
-                        <i class="fas fa-phone"></i>
-                        <span itemprop="telephone">(11) 3917-5139</span>
-                    </a>
-                    <span class="divisor">|</span>
-                    <a title="Clique e ligue"
-                        href="https://wa.me/5511999557929?text=Ol%c3%a1,%20preciso%20de%20informa%c3%a7%c3%b5es"
-                        target="_blank">
-                        <i class="fab fa-whatsapp"></i>
-                        <span itemprop="telephone">(11) 94706-8856</span>
-                    </a>
-                    <span class="divisor">-</span>
-                    <a title="Clique e ligue"
-                        href="https://wa.me/5511999557929?text=Ol%c3%a1,%20preciso%20de%20informa%c3%a7%c3%b5es"
-                        target="_blank">
-                        <span itemprop="telephone">(11) 99955-7929</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="header-bottom header-container-main">
-            <div class="container">
-                <nav class="menu">
-                    <ul class="menu-list">
-                        <li><a href="index.html" title="Página inicial">Home</a></li>
-                        <li><a href="empresa.html" title="Empresa">Empresa</a></li>
-                        <li>
-                            <a href="produtos.html" title="Produtos">Produtos</a>
-                            <ul class="sub-menu">
-                                <li><a href="produto-sinalizacao-viaria.html" title="Sinalização Viária">Sinalização
-                                        Viária</a></li>
-                                <li><a href="trafego.html" title="Tráfego">Tráfego</a></li>
-                                <li><a href="index.html" title="Acessórios">Acessórios</a></li>
-                                <li><a href="estrados.html" title="Estrados">Estrados</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contato.html" title="Contato">Contato</a></li>
-                        <li><a href="assets/pdf/manual-de-instalacao.pdf" target="_blank"
-                                title="Manual de Instalação">Manual de Instalação</a></li>
-                    </ul>
-                </nav>
-                <div class="redes">
-                    <div class="col-md-4 box-redes border-l">
-                        <a href="#" title="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </div>
-                    <div class="col-md-4 box-redes border-c">
-                        <a href="https://wa.me/5511999557929?text=Ol%c3%a1,%20preciso%20de%20informa%c3%a7%c3%b5es"
-                            target="_blank" title="">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </div>
-                    <div class="col-md-4 box-redes border-r">
-                        <a href="mailto:contato@realsinalizacao.com.br" title="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="box-contato-3">
-            <a title="Clique e entre em contato via WhatsApp" href="https://wa.me/5511999557929" target="_blank">
-                <img src="imagens/icones/whatsapp.jpg" alt="WhatsApp" title="WhatsApp" class="img-responsive">
-                <p itemprop="telephone">(11) 99955-7929</p>
-            </a>
-        </div>
-    </header>
+    <?php include "php/header.php"; ?>
     <main class="main-content">
         <div class="title">
             <h1>Sinalização Viária</h1>
@@ -153,7 +39,7 @@
                                     <i class="fas fa-file-signature"></i>
                                 </a>
                                 <div class="btn-produto">
-                                    <a href="contato.html" title="Orçamento">Solicite um Orçamento</a>
+                                    <a href="contato.php" title="Orçamento">Solicite um Orçamento</a>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +65,7 @@
                                     <i class="fas fa-file-signature"></i>
                                 </a>
                                 <div class="btn-produto">
-                                    <a href="contato.html" title="Orçamento">Solicite um Orçamento</a>
+                                    <a href="contato.php" title="Orçamento">Solicite um Orçamento</a>
                                 </div>
                             </div>
                         </div>
@@ -206,7 +92,7 @@
                                     <i class="fas fa-file-signature"></i>
                                 </a>
                                 <div class="btn-produto">
-                                    <a href="contato.html" title="Orçamento">Solicite um Orçamento</a>
+                                    <a href="contato.php" title="Orçamento">Solicite um Orçamento</a>
                                 </div>
                             </div>
                         </div>
@@ -232,7 +118,7 @@
                                     <i class="fas fa-file-signature"></i>
                                 </a>
                                 <div class="btn-produto">
-                                    <a href="contato.html" title="Orçamento">Solicite um Orçamento</a>
+                                    <a href="contato.php" title="Orçamento">Solicite um Orçamento</a>
                                 </div>
                             </div>
                         </div>
@@ -259,7 +145,7 @@
                                     <i class="fas fa-file-signature"></i>
                                 </a>
                                 <div class="btn-produto">
-                                    <a href="contato.html" title="Orçamento">Solicite um Orçamento</a>
+                                    <a href="contato.php" title="Orçamento">Solicite um Orçamento</a>
                                 </div>
                             </div>
                         </div>
@@ -286,7 +172,7 @@
                                     <i class="fas fa-file-signature"></i>
                                 </a>
                                 <div class="btn-produto">
-                                    <a href="contato.html" title="Orçamento">Solicite um Orçamento</a>
+                                    <a href="contato.php" title="Orçamento">Solicite um Orçamento</a>
                                 </div>
                             </div>
                         </div>
@@ -312,7 +198,7 @@
                                     <i class="fas fa-file-signature"></i>
                                 </a>
                                 <div class="btn-produto">
-                                    <a href="contato.html" title="Orçamento">Solicite um Orçamento</a>
+                                    <a href="contato.php" title="Orçamento">Solicite um Orçamento</a>
                                 </div>
                             </div>
                         </div>
@@ -339,7 +225,7 @@
                                     <i class="fas fa-file-signature"></i>
                                 </a>
                                 <div class="btn-produto">
-                                    <a href="contato.html" title="Orçamento">Solicite um Orçamento</a>
+                                    <a href="contato.php" title="Orçamento">Solicite um Orçamento</a>
                                 </div>
                             </div>
                         </div>
@@ -349,77 +235,7 @@
         </div>
     </main>
 
-    <footer>
-        <div class="faixa-contato">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-10">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <h3>Entre em Contato conosco</h3>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="btn-faixa">
-                                <a href="contato.html" title="Entre em Contato">Entre em Contato</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="imagens/logo-footer.png" alt="Real Sinalização" title="Real Sinalização"
-                            class="img-responsive">
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Endereço</h4>
-                        <p>Rua Orco, 143 - Jardim Adelfiore<br>
-                            São Paulo - SP - CEP: 05223-110</p>
-                    </div>
-                    <div class="col-md-3">
-                        <h4>Institucional</h4>
-                        <ul>
-                            <li><a href="index.html" title="Página inicial">Home</a></li>
-                            <li><a href="empresa.html" title="Empresa">Empresa</a></li>
-                            <li><a href="produtos.html" title="Produtos">Produtos</a></li>
-                            <li><a href="contato.html" title="Contato">Contato</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2">
-                        <h4>Contatos</h4>
-                        <a href="#" title=""><i class="fab fa-facebook-f"></i></a>
-                        <span class="divisor"></span>
-                        <a href="ttps://wa.me/5511999557929?text=Olá,%20preciso%20de%20informações" title="WhatsApp"><i
-                                class="fab fa-whatsapp"></i></a>
-                        <span class="divisor"></span>
-                        <a href="mailto:contato@realsinalizacao.com.br" title="email"><i
-                                class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>&copy; 2021 Real Sinalização - Todos os direitos reservados.</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <ul class="menu-footer-mobile">
-            <li><a href="tel:113917-5139" class="mm-call" title="Ligue"></a></li>
-            <li><a href="whatsapp://send?text=http://www.realsinalizacao.com.br/produto-sinalizacao-viaria"
-                    class="mm-whatsapp" title="Whats App"></a></li>
-            <li><a href="mailto:contato@realsinalizacao.com.br" class="mm-email" title="E-mail"></a></li>
-            <li><button type="button" class="mm-up-to-top" title="Volte ao Topo"></button></li>
-        </ul>
-    </footer>
+    <?php include "php/footer.php"; ?>
 </body>
 
 </html>
