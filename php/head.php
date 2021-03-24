@@ -32,7 +32,7 @@
 
 
 <link rel="stylesheet" href="assets/fontawesome-free-5.7.0-web/css/all.min.css">
-		<!-- Desenvolvido por Efata Marketing Digital, www.efatamarketingdigital.com.br - Todos os direitos reservados, 2020 - <?php echo date("Y"); ?> -->
+		<!-- Desenvolvido por Inovvary Marketing Digital, www.inovvary.com.br - Todos os direitos reservados, 2020 - <?php echo date("Y"); ?> -->
 		
 	    <?php if($captcha){ ?>
 	    <script src="https://www.google.com/recaptcha/api.js"></script>

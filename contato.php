@@ -17,9 +17,9 @@
         <div class="contato">
             <div class="container">
                 <div id="breadcrumb" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <a rel="home" href="index.php" title="Home" itemprop="url"><span itemprop="title">Home</span></a> »
+                    <a rel="home" href="<?php echo $url; ?>" title="Home" itemprop="url"><span itemprop="title">Home</span></a> »
                     <div itemprop="child" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                        <a href="contato.php" title="Contato" itemprop="url">
+                        <a href="<?php echo $url; ?>contato.php" title="Contato" itemprop="url">
                             <strong><span class="page" itemprop="title">Contato</span></strong>
                         </a>
                     </div>

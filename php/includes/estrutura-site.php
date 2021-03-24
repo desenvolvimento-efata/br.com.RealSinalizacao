@@ -1,17 +1,17 @@
 <ul>
-    <li><a href="<?php echo $url; ?>" title="Página inicial">Home</a></li>
-    <li><a href="<?php echo $url; ?>sobre-nos" title="Sobre Nós">Sobre Nós</a></li>
+    <li><a href="<?php echo $url; ?>index" title="Página inicial">Home</a></li>
+    <li><a href="<?php echo $url; ?>empresa" title="Empresa">Empresa</a></li>
     <li>
-        <a href="<?php echo $url; ?>servicos" title="Serviços">Serviços</a>
-        <ul>
-            <li><a href="<?php echo $url; ?>" title="Serviço_1">Serviço_1</a></li>
-            <li><a href="<?php echo $url; ?>" title="Serviço_2">Serviço_2</a></li>
-            <li><a href="<?php echo $url; ?>" title="Serviço_3">Serviço_3</a></li>
-            <li><a href="<?php echo $url; ?>" title="Serviço_4">Serviço_4</a></li>
-            <li><a href="<?php echo $url; ?>" title="Serviço_5">Serviço_5</a></li>
+        <a href="<?php echo $url; ?>produtos" title="Produtos">Produtos</a>
+        <ul class="sub-menu">
+            <li><a href="<?php echo $url; ?>produto-sinalizacao-viaria" title="Sinalização Viária">Sinalização Viária</a></li>
+            <li><a href="<?php echo $url; ?>trafego" title="Tráfego">Tráfego</a></li>
+            <li><a href="<?php echo $url; ?>index" title="Acessórios">Acessórios</a></li>
+            <li><a href="<?php echo $url; ?>estrados" title="Estrados">Estrados</a></li>
         </ul>
-    </li>
-    <li><a href="<?php echo $url; ?>contato" title="Contato">Contato</a></li>
+    </li>   
+    <li><a href="<?php echo $url; ?>contato" title="Contato">Contato</a></li>                
+    <li><a href="<?php echo $url; ?>assets/pdf/manual-de-instalacao.pdf" target="_blank" title="Manual de Instalação">Manual de Instalação</a></li>
     <li><a href="<?php echo $url; ?>informacoes" title="Informações">Informações</a>
         <ul>
             <?php echo $ef->subMenu($palavras_chave); ?>

@@ -17,9 +17,9 @@
         <div class="produtos">
             <div class="container">
                 <div id="breadcrumb" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <a rel="home" href="index.html" title="Home" itemprop="url"><span itemprop="title">Home</span></a> »
+                    <a rel="home" href="<?php echo $url; ?>index.html" title="Home" itemprop="url"><span itemprop="title">Home</span></a> »
                     <div itemprop="child" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                        <a href="produtos.html" title="Produtos" itemprop="url">
+                        <a href="<?php echo $url; ?>produtos.html" title="Produtos" itemprop="url">
                             <strong><span class="page" itemprop="title">Produtos</span></strong>
                         </a>
                     </div>
@@ -31,7 +31,7 @@
                     <div class="col-md-3">
                         <div class="box-produto">
                             <div class="box-img">
-                                <img src="imagens/produtos/box-1.jpg" alt="Produtos" title="Produtos" class="img-full">
+                                <img src="<?php echo $url; ?>imagens/produtos/box-1.jpg" alt="Produtos" title="Produtos" class="img-full">
                                 <i class="fas fa-road"></i>
                             </div>
                             <div class="content-txt">
@@ -41,14 +41,14 @@
                                     especializada.</p>
                             </div>
                             <div class="btn-ver-mais">
-                                <a href="produto-sinalizacao-viaria.html" title="Sinalização Viária">Saiba Mais</a>
+                                <a href="<?php echo $url; ?>produto-sinalizacao-viaria" title="Sinalização Viária">Saiba Mais</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box-produto">
                             <div class="box-img">
-                                <img src="imagens/produtos/box-2.jpg" alt="Produtos" title="Produtos" class="img-full">
+                                <img src="<?php echo $url; ?>imagens/produtos/box-2.jpg" alt="Produtos" title="Produtos" class="img-full">
                                 <i class="fas fa-road"></i>
                             </div>
                             <div class="content-txt">
@@ -57,14 +57,14 @@
                                     facilita a visualização do motorista em distâncias consideráveis.</p>
                             </div>
                             <div class="btn-ver-mais">
-                                <a href="trafego.html" title="Tráfego"> Saiba Mais</a>
+                                <a href="<?php echo $url; ?>trafego" title="Tráfego"> Saiba Mais</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box-produto">
                             <div class="box-img">
-                                <img src="imagens/produtos/box-3.jpg" alt="Produtos" title="Produtos" class="img-full">
+                                <img src="<?php echo $url; ?>imagens/produtos/box-3.jpg" alt="Produtos" title="Produtos" class="img-full">
                                 <i class="fas fa-road"></i>
                             </div>
                             <div class="content-txt">
@@ -73,14 +73,14 @@
                                     Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
                             <div class="btn-ver-mais">
-                                <a href="index.html" title="Acessórios"> Saiba Mais</a>
+                                <a href="<?php echo $url; ?>" title="Acessórios"> Saiba Mais</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box-produto">
                             <div class="box-img">
-                                <img src="imagens/produtos/box-4.jpg" alt="Produtos" title="Produtos" class="img-full">
+                                <img src="<?php echo $url; ?>imagens/produtos/box-4.jpg" alt="Produtos" title="Produtos" class="img-full">
                                 <i class="fas fa-road"></i>
                             </div>
                             <div class="content-txt">
@@ -89,7 +89,7 @@
                                     contato de pessoas com áreas molhadas.</p>
                             </div>
                             <div class="btn-ver-mais">
-                                <a href="estrados.html" title="Estrados"> Saiba Mais</a>
+                                <a href="<?php echo $url; ?>estrados" title="Estrados"> Saiba Mais</a>
                             </div>
                         </div>
                     </div>

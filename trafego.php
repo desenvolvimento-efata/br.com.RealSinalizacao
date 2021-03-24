@@ -12,6 +12,7 @@
 <body>
 
     <?php include "php/header.php"; ?>
+    
     <main class="main-content">
         <div class="title">
             <h1>Tráfego</h1>

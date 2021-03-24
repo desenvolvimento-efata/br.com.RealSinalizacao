@@ -17,15 +17,15 @@
         <div class="empresa text-justify">
             <div class="container">
                 <div id="breadcrumb" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <a rel="home" href="index.html" title="Home" itemprop="url"><span itemprop="title">Home</span></a> »
+                    <a rel="home" href="<?php echo $url; ?>" title="Home" itemprop="url"><span itemprop="title">Home</span></a> »
                     <div itemprop="child" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                        <a href="empresa.html" title="Empresa" itemprop="url">
+                        <a href="<?php echo $url; ?>empresa" title="Empresa" itemprop="url">
                             <strong><span class="page" itemprop="title">Empresa</span></strong>
                         </a>
                     </div>
                 </div>
                 <h1>Empresa</h1>
-                <img src="imagens/empresa.jpg" alt="Empresa" title="Empresa" class="img-right">
+                <img src="<?php echo $url; ?>imagens/empresa.jpg" alt="Empresa" title="Empresa" class="img-right">
                 <h2>MISSÃO</h2>
                 <p>Nosso compromisso é fornecer soluções em produtos e serviços com excelência e maestria, oferecendo,
                     por custos acessíveis, uma produção de alta qualidade, que possibilite aos clientes desfrutar de

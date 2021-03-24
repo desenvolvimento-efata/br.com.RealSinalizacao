@@ -3,9 +3,9 @@
     // Parâmetros para URL
     $ef = new efata(array(
         // URL local
-        "http://localhost/br.com.RealSinalizacao/",
+        "http://localhost/realsinalizacao.com.br/",
         // URL online
-        "http://www.realsinalizacao.com.br/"
+        "https://www.realsinalizacao.com.br/"
     ));
 
     // Principais Dados do Cliente
@@ -46,9 +46,12 @@
     $canonical               = $ef->canonical;
 	
     // Parâmetros para Formulário de Contato
-    $smtp_contato            = "";
-    $email_remetente         = "";
-    $senha_remetente         = "";
+    $smtp_contato            = "gagarin1980.hospedagemdesites.ws";
+    // $smtp_contato            = "200.234.222.116";
+    // $smtp_contato            = "perithusengenharia.com.br";
+    $email_remetente         = "contato@realsinalizacao.com.br";
+    $senha_remetente         = "contato!@#realsinalizacao";
+
 
     // Recaptcha Google
     $captcha                 = false; // https://www.google.com/recaptcha/
@@ -57,9 +60,54 @@
         
     // Palavras Chave
     $palavras_chave = array(
-        "Palavra Chave",
-        "Palavra Chave 2",
-        "Palavra Chave 3",
-        "Palavra Chave 4",
-        "Palavra Chave 5"
+        "Bate Rodas de Sinalização",
+        "Cone Barril Cone de Pvc",
+        "Cone de Sinalização de Borracha",
+        "Cone de Sinalização Viária 75cm",
+        "Cones de Sinalização em Sp",
+        "Cones de Sinalização",
+        "Conão de Sinalização",
+        "Empresa de Lombada de Borracha",
+        "Empresa de Sinalização Viária",
+        "Fabricante de Lombada de Borracha",
+        "Lombada de Borracha em Sp",
+        "Lombada de Borracha para Condomínios",
+        "Lombada de Borracha para Estacionamentos",
+        "Lombadas de Sinalização",
+        "Placa de Sinalização Viária",
+        "Redutor de Velocidade Sinalização",
+        "Segregador para Sinalização Viária",
+        "Sinalização Horizontal",
+        "Sinalização para Estacionamentos",
+        "Sinalização Viária em Sp",
+        "Sinalização Viária Horizontal",
+        "Sinalização Viária",
+        "Sinalizações Viárias",
+        "Tacha de Sinalização",
+        "Tachas Refletivas",
+        "Tachinha para Sinalização",
+        "Tachão Bidirecional Preço",
+        "Tachão de Sinalização",
+        "Tachão de Trânsito",
+        "Tachão Redutor de Velocidade",
+        "Tachão Refletivo Bidirecional",
+        "Tachão Refletivo",
+        "Tintas Demarcação Viária",
+        "Correntes de Plástico",
+        "Correntes Sinalização",
+        "Pedestal para Correntes",
+        "Pedestal de PVC",
+        "Placas de Lombadas",
+        "Placas de Velocidade",
+        "Placas para Condomínios",
+        "Fábrica de Placas",
+        "Fábrica de Lombadas de Borracha",
+        "Fábrica de Tachão",
+        "Fábrica de Correntes",
+        "Fábrica de Pedestal",
+        "Tinta de Demarcação",
+        "Tinta para Estacionamentos",
+        "Pinturas de Vagas",
+        "Pinturas PNE e Pinturas PCD",
+        "Tinta de Sinalização"
     );

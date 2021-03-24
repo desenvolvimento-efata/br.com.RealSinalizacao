@@ -16,13 +16,13 @@
     <?php include "php/header.php"; ?>
         
     <main class="main-content">
-        <img src="imagens/home/banner.jpg" alt="http://www.realsinalizacao.com.br/" title="http://www.realsinalizacao.com.br/" class="img-responsive">
+        <img src="<?php echo $url; ?>imagens/home/banner.jpg" alt="http://www.realsinalizacao.com.br/" title="http://www.realsinalizacao.com.br/" class="img-responsive">
         <div class="section-info">
             <div class="container">
                 <div class="row">
                     <h2>Entre em contato conosco</h2>
                     <div class="col-md-3">
-                        <a href="tel:113917-5139" title="Informações">
+                        <a href="<?php echo $url; ?>tel:113917-5139" title="Informações">
                             <div class="box-info">
                                 <i class="fas fa-phone"></i>
                                 <h3>Telefone</h3>
@@ -31,7 +31,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="https://wa.me/5511999557929?text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es" target="_blank" title="Informações">
+                        <a href="<?php echo $url; ?>https://wa.me/5511999557929?text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es" target="_blank" title="Informações">
                             <div class="box-info">
                                 <i class="fab fa-whatsapp"></i>
                                 <h3>WhatsApp</h3>
@@ -40,7 +40,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="mailto:contato@realsinalizacao.com.br" title="E-mail">
+                        <a href="<?php echo $url; ?>mailto:contato@realsinalizacao.com.br" title="E-mail">
                             <div class="box-info">
                                 <i class="fas fa-envelope"></i>
                                 <h3>E-mail</h3>
@@ -50,7 +50,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="contato.php" title="Contato">
+                        <a href="<?php echo $url; ?>contato.php" title="Contato">
                             <div class="box-info">
                                 <i class="fas fa-file-signature"></i>
                                 <h3>Solicite Online</h3>
@@ -64,7 +64,7 @@
         <div class="texto-home">
             <div class="container">
                 <p><strong>Solução no Trânsito</strong> orientar e informar aos usuários para evitar acidentes, este é o propósito da nossa linha de sinalização Viária. Tachões, Tachas e muito mais para sinalização horizontal, seguindo padrões internacionais de qualidade.</p>
-                <p>Nossa linha de tachões e tachinhas é fabricada em resina de poliéster com carga mineral, dentro dos padrões <strong>CET-SP</strong>. Sua instalação deve seguir as normas do <a href="assets/pdf/real-contram.pdf" target="_blank" title="Contran"><strong>CONTRAN</strong></a>, não sendo de nossa responsabilidade o uso em desacordo com a legislação vigente.</p>
+                <p>Nossa linha de tachões e tachinhas é fabricada em resina de poliéster com carga mineral, dentro dos padrões <strong>CET-SP</strong>. Sua instalação deve seguir as normas do <a href="<?php echo $url; ?>assets/pdf/real-contram.pdf" target="_blank" title="Contran"><strong>CONTRAN</strong></a>, não sendo de nossa responsabilidade o uso em desacordo com a legislação vigente.</p>
             </div>
         </div>
         <div class="section-produtos">
@@ -74,7 +74,7 @@
                     <div class="col-md-3">
                         <div class="box-produto">
                             <div class="box-img">
-                                <img src="imagens/produtos/box-1.jpg" alt="Produtos" title="Produtos" class="img-full">
+                                <img src="<?php echo $url; ?>imagens/produtos/box-1.jpg" alt="Produtos" title="Produtos" class="img-full">
                                 <i class="fas fa-road"></i>
                             </div>
                             <div class="content-txt">
@@ -82,14 +82,14 @@
                                 <p>Estes produtos possuem pinos de fixação e sua instalação requer cola própria feita a base de resina e catalizador (sua instalação deve ser realizada por mão de obra especializada.</p>
                             </div>
                             <div class="btn-ver-mais">
-                                <a href="produto-sinalizacao-viaria.php" title="Sinalização Viária">Saiba Mais</a>
+                                <a href="<?php echo $url; ?>produto-sinalizacao-viaria.php" title="Sinalização Viária">Saiba Mais</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box-produto">
                             <div class="box-img">
-                                <img src="imagens/produtos/box-2.jpg" alt="Produtos" title="Produtos" class="img-full">
+                                <img src="<?php echo $url; ?>imagens/produtos/box-2.jpg" alt="Produtos" title="Produtos" class="img-full">
                                 <i class="fas fa-road"></i>
                             </div>
                             <div class="content-txt">
@@ -97,14 +97,14 @@
                                 <p>Solução para isolamento na Pista. Neste modelo, sua base é quadrada. Por sua altura, facilita a visualização do motorista em distâncias consideráveis.</p>
                             </div>
                             <div class="btn-ver-mais">
-                                <a href="trafego.php" title="Tráfego"> Saiba Mais</a>
+                                <a href="<?php echo $url; ?>trafego.php" title="Tráfego"> Saiba Mais</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box-produto">
                             <div class="box-img">
-                                <img src="imagens/produtos/box-3.jpg" alt="Produtos" title="Produtos" class="img-full">
+                                <img src="<?php echo $url; ?>imagens/produtos/box-3.jpg" alt="Produtos" title="Produtos" class="img-full">
                                 <i class="fas fa-road"></i>
                             </div>
                             <div class="content-txt">
@@ -112,14 +112,14 @@
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
                             <div class="btn-ver-mais">
-                                <a href="index.php" title="Acessórios"> Saiba Mais</a>
+                                <a href="<?php echo $url; ?>index.php" title="Acessórios"> Saiba Mais</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box-produto">
                             <div class="box-img">
-                                <img src="imagens/produtos/box-4.jpg" alt="Produtos" title="Produtos" class="img-full">
+                                <img src="<?php echo $url; ?>imagens/produtos/box-4.jpg" alt="Produtos" title="Produtos" class="img-full">
                                 <i class="fas fa-road"></i>
                             </div>
                             <div class="content-txt">
@@ -127,7 +127,7 @@
                                 <p>Ótima solução para armazenagem e transporte. Recomendado para locais úmidos. Isola contato de pessoas com áreas molhadas.</p>
                             </div>
                             <div class="btn-ver-mais">
-                                <a href="estrados.php" title="Estrados"> Saiba Mais</a>
+                                <a href="<?php echo $url; ?>estrados.php" title="Estrados"> Saiba Mais</a>
                             </div>
                         </div>
                     </div>
