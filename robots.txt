@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /php/
+
+Sitemap: https://www.realsinalizacao.com.br/sitemap.xml
